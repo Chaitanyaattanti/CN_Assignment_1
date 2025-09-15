@@ -46,5 +46,5 @@ def run_client(pcap_file):
             f.write(f"{h}\t{d}\t{ip}\n")
 
 if __name__ == "__main__":
-    pcap_file = r"8.pcap"  # Set PCAP path here
+    pcap_file = r"/Users/chaitanyaattanti/Downloads/8.pcap"  # Set PCAP path here
     run_client(pcap_file)
