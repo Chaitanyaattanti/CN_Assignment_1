@@ -58,10 +58,14 @@ This will:
 ### report.txt
 
 ```
-CustomHeader   Domain       ResolvedIP
-12341600       example.com  192.168.1.6
-12341601       test.com     192.168.1.7
-12341602       abc.org      192.168.1.8
+CustomHeader	Domain	      ResolvedIP
+12341600	github.com	      192.168.1.6
+12341601	bing.com	        192.168.1.7
+12341602	facebook.com	    192.168.1.8
+12341603	amazon.com	      192.168.1.9
+12341604	linkedin.com	    192.168.1.10
+12341605	stackoverflow.com	192.168.1.6
+
 ```
 
 ---
