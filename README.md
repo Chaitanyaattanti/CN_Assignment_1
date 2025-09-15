@@ -13,37 +13,6 @@ This Assignment implements a **custom DNS resolver system** with a **client–se
 
 ---
 
-##  Features
-
-* **Custom Header Format (8 bytes):**
-
-  * `HH` – Hour (24-hour format)
-  * `MM` – Minute
-  * `SS` – Second
-  * `ID` – Sequential ID starting from 00
-
-  Example: `12341600` → 12:34:16, ID = 00
-
-* **Time-Based IP Resolution Rules:**
-
-  * Morning (04:00–11:59) → Pool Index 0–4
-  * Afternoon (12:00–19:59) → Pool Index 5–9
-  * Night (20:00–03:59) → Pool Index 10–14
-
-* **IP Pool containing 15 IPs:**
-
-  ```
-  192.168.1.1 – 192.168.1.15
-  ```
-
-* **Report Output:**
-  All resolved queries are added in `report.txt` in the format:
-
-  ```
-  CustomHeader   Domain   ResolvedIP
-  ```
-
----
 
 ##  How to Run
 
