@@ -1,6 +1,8 @@
 # **Computer Networks Assignment 1**
 **DNS Resolver with Custom Header**
 
+Download the sample packet capture file 8.pcap from the following link: https://drive.google.com/file/d/1mYjJznwiDRGd1O8cMntyIOwWfRbkwcbk/view?usp=sharing
+
 ##  Overview
 
 This Assignment implements a **custom DNS resolver system** with a **client–server architecture**.
